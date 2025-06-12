@@ -1,0 +1,29 @@
+.card-score {
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(#38b2ac calc(var(--percent) * 1%), #cbd5e0 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  --percent: 0; /* será atualizado via style */
+}
+
+.circle .inner-circle {
+  width: 120px;
+  height: 120px;
+  background-color: #1A202C;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

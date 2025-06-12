@@ -1,7 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { FaLightbulb, FaMicrochip, FaFilm, FaGlobe } from "react-icons/fa"; // importa os ícones
 import './Home.css';
-
 
 function HomePage() {
   const navigate = useNavigate();
@@ -20,7 +18,7 @@ function HomePage() {
           className="categoria curiosidades"
           onClick={() => EscolherCategoria('Curiosidades e Fatos Inusitados')}
         >
-          <FaLightbulb className="icon" />
+          <i className="bi bi-lightbulb-fill icon"></i>
           Curiosidades
         </button>
 
@@ -28,7 +26,7 @@ function HomePage() {
           className="categoria tecnologia"
           onClick={() => EscolherCategoria('Tecnologia e Inovação')}
         >
-          <FaMicrochip className="icon" />
+          <i className="bi bi-cpu-fill icon"></i>
           Tecnologia e Inovação
         </button>
 
@@ -36,7 +34,7 @@ function HomePage() {
           className="categoria entretenimento"
           onClick={() => EscolherCategoria('Entretenimento')}
         >
-          <FaFilm className="icon" />
+          <i className="bi bi-film icon"></i>
           Entretenimento
         </button>
 
@@ -44,7 +42,7 @@ function HomePage() {
           className="categoria gerais"
           onClick={() => EscolherCategoria('Conhecimentos Gerais')}
         >
-          <FaGlobe className="icon" />
+          <i className="bi bi-globe2 icon"></i>
           Conhecimentos Gerais
         </button>
       </div>

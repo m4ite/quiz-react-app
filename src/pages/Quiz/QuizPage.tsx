@@ -1,6 +1,7 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import "./Quiz.css"
+
 import Questao from '../../DTO/Questao'; // importa a interface das questões
 import jsonQuestoes from '../../data/perguntas.json'; // importa as perguntas do arquivo
 
