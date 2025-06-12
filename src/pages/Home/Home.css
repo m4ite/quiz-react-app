@@ -1,0 +1,52 @@
+.homepage {
+  text-align: center;
+  padding: 2rem;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.categoria {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.categoria:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.categoria .icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Cores específicas por categoria */
+.curiosidades {
+  background-color: #4FD1C5;
+}
+
+.tecnologia {
+  background-color: #667EEA;
+}
+
+.entretenimento {
+  background-color: #ED64A6;
+}
+
+.gerais {
+  background-color: #F6AD55;
+}

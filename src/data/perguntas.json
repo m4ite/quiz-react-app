@@ -1,0 +1,245 @@
+[
+  {
+    "enunciado": "Qual é o maior oceano do mundo?",
+    "alternativas": ["Atlântico", "Índico", "Pacífico", "Ártico"],
+    "resposta": "Pacífico",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Quem foi o primeiro presidente do Brasil?",
+    "alternativas": ["Getúlio Vargas", "Deodoro da Fonseca", "Juscelino Kubitschek", "Pedro II"],
+    "resposta": "Deodoro da Fonseca",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Em que ano aconteceu a Revolução Francesa?",
+    "alternativas": ["1789", "1804", "1776", "1815"],
+    "resposta": "1789",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual o país mais populoso do mundo?",
+    "alternativas": ["Índia", "Estados Unidos", "China", "Rússia"],
+    "resposta": "China",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual é o elemento químico representado pelo símbolo 'O'?",
+    "alternativas": ["Ouro", "Oxigênio", "Ósmio", "Osmose"],
+    "resposta": "Oxigênio",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Quantos planetas existem no sistema solar?",
+    "alternativas": ["7", "8", "9", "10"],
+    "resposta": "8",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual é a capital da Austrália?",
+    "alternativas": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "resposta": "Canberra",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual é o maior animal terrestre?",
+    "alternativas": ["Rinoceronte", "Elefante Africano", "Hipopótamo", "Girafa"],
+    "resposta": "Elefante Africano",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual é a montanha mais alta do mundo?",
+    "alternativas": ["Monte Everest", "K2", "Kangchenjunga", "Lhotse"],
+    "resposta": "Monte Everest",
+    "categoria": "Conhecimentos Gerais"
+  },
+  {
+    "enunciado": "Qual é o maior deserto do mundo?",
+    "alternativas": ["Sahara", "Árabe", "Antártico", "Gobi"],
+    "resposta": "Antártico",
+    "categoria": "Conhecimentos Gerais"
+  },
+  
+  {
+    "enunciado": "Quem interpretou o Homem de Ferro no Universo Cinematográfico Marvel?",
+    "alternativas": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    "resposta": "Robert Downey Jr.",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual série tem como protagonista Walter White?",
+    "alternativas": ["Breaking Bad", "Better Call Saul", "Narcos", "Ozark"],
+    "resposta": "Breaking Bad",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual banda lançou o álbum 'Abbey Road'?",
+    "alternativas": ["The Rolling Stones", "The Beatles", "Pink Floyd", "Queen"],
+    "resposta": "The Beatles",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual filme ganhou o Oscar de Melhor Filme em 2020?",
+    "alternativas": ["1917", "Parasita", "Coringa", "Ford vs Ferrari"],
+    "resposta": "Parasita",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Quem é o criador da série 'Game of Thrones'?",
+    "alternativas": ["George R.R. Martin", "J.K. Rowling", "Stephen King", "J.R.R. Tolkien"],
+    "resposta": "George R.R. Martin",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual personagem é conhecido como 'O Cavaleiro das Trevas'?",
+    "alternativas": ["Superman", "Batman", "Flash", "Aquaman"],
+    "resposta": "Batman",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual cantora lançou o álbum '1989'?",
+    "alternativas": ["Adele", "Taylor Swift", "Beyoncé", "Katy Perry"],
+    "resposta": "Taylor Swift",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual é o nome do planeta natal do personagem Superman?",
+    "alternativas": ["Krypton", "Vulcano", "Tatooine", "Asgard"],
+    "resposta": "Krypton",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Em qual filme aparece o personagem 'Jack Sparrow'?",
+    "alternativas": ["Piratas do Caribe", "Indiana Jones", "Star Wars", "O Senhor dos Anéis"],
+    "resposta": "Piratas do Caribe",
+    "categoria": "Entretenimento"
+  },
+  {
+    "enunciado": "Qual série animada tem um personagem chamado 'Bart Simpson'?",
+    "alternativas": ["Family Guy", "Os Simpsons", "Futurama", "South Park"],
+    "resposta": "Os Simpsons",
+    "categoria": "Entretenimento"
+  },
+
+  {
+    "enunciado": "O que significa a sigla HTML?",
+    "alternativas": ["HyperText Markup Language", "HyperText Machine Language", "HighText Markup Language", "Hyperlink Text Markup Language"],
+    "resposta": "HyperText Markup Language",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Quem é considerado o pai da computação?",
+    "alternativas": ["Alan Turing", "Bill Gates", "Steve Jobs", "Nikola Tesla"],
+    "resposta": "Alan Turing",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual empresa desenvolveu o sistema operacional Windows?",
+    "alternativas": ["Apple", "Microsoft", "Google", "IBM"],
+    "resposta": "Microsoft",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "O que faz um programador Front-end?",
+    "alternativas": ["Desenvolve servidores", "Cuida da interface visual", "Gerencia banco de dados", "Trabalha com hardware"],
+    "resposta": "Cuida da interface visual",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual linguagem é usada para estilizar páginas web?",
+    "alternativas": ["HTML", "JavaScript", "CSS", "Python"],
+    "resposta": "CSS",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual é o principal banco de dados relacional da Oracle?",
+    "alternativas": ["MySQL", "PostgreSQL", "Oracle DB", "MongoDB"],
+    "resposta": "Oracle DB",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual empresa criou o sistema operacional Linux?",
+    "alternativas": ["Microsoft", "Apple", "Linus Torvalds", "Google"],
+    "resposta": "Linus Torvalds",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "O que é inteligência artificial?",
+    "alternativas": ["Robôs físicos", "Sistemas que simulam a inteligência humana", "Jogos de computador", "Redes sociais"],
+    "resposta": "Sistemas que simulam a inteligência humana",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual linguagem de programação é conhecida por sua simplicidade e uso em aprendizado?",
+    "alternativas": ["Java", "C++", "Python", "Assembly"],
+    "resposta": "Python",
+    "categoria": "Tecnologia e Inovação"
+  },
+  {
+    "enunciado": "Qual é o nome do assistente virtual da Apple?",
+    "alternativas": ["Alexa", "Cortana", "Siri", "Google Assistant"],
+    "resposta": "Siri",
+    "categoria": "Tecnologia e Inovação"
+  },
+
+  {
+    "enunciado": "Qual animal tem o maior tempo de gestação?",
+    "alternativas": ["Elefante", "Baleia Azul", "Cavalo", "Girafa"],
+    "resposta": "Elefante",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual fruta é conhecida por nunca estragar?",
+    "alternativas": ["Maçã", "Coco", "Banana", "Melancia"],
+    "resposta": "Coco",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Quantos corações tem um polvo?",
+    "alternativas": ["1", "2", "3", "4"],
+    "resposta": "3",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual é o único alimento que nunca estraga?",
+    "alternativas": ["Mel", "Arroz", "Feijão", "Sal"],
+    "resposta": "Mel",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual país tem mais ilhas no mundo?",
+    "alternativas": ["Indonésia", "Filipinas", "Suécia", "Canadá"],
+    "resposta": "Suécia",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual é o objeto mais rápido criado pelo homem?",
+    "alternativas": ["Satélite", "Foguete", "Avião", "Trem Bala"],
+    "resposta": "Foguete",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual animal é conhecido por sua capacidade de mudar de cor?",
+    "alternativas": ["Camaleão", "Polvo", "Lagarto", "Serpente"],
+    "resposta": "Camaleão",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "O que é a luz visível para o olho humano?",
+    "alternativas": ["Ondas de rádio", "Radiação ultravioleta", "Radiação infravermelha", "Radiação eletromagnética"],
+    "resposta": "Radiação eletromagnética",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual é o país que possui a maior rede ferroviária do mundo?",
+    "alternativas": ["Estados Unidos", "Rússia", "China", "Índia"],
+    "resposta": "Estados Unidos",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  },
+  {
+    "enunciado": "Qual é a moeda oficial do Japão?",
+    "alternativas": ["Yuan", "Won", "Iene", "Dólar"],
+    "resposta": "Iene",
+    "categoria": "Curiosidades e Fatos Inusitados"
+  }
+]
