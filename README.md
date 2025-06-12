@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+<h1 align="center">
+    🧠<br>QuizMaster
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📑 Índice
 
-## Available Scripts
+- [Descrição](#descricao)
+- [Tecnologias Utilizadas](#tecnologias)
+- [Como Executar](#como-executar)
+- [Funcionalidades](#funcionalidade)
 
-In the project directory, you can run:
+<a name="descricao"></a>
+## 📚 Descrição
 
-### `npm start`
+Este projeto é um quiz online em que o usuário pode selecionar entre diversas categorias de perguntas, responder a um conjunto aleatório de questões e acompanhar sua pontuação ao final do quiz. A aplicação utiliza React Router para navegação entre as páginas, gerencia estado com hooks do React, e apresenta uma interface estilizada com Bootstrap e CSS personalizado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a name="tecnologias"></a>
+## 🛠 Tecnologias Utilizadas
 
-### `npm test`
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+<a name="como-executar"></a>
+## 💻 Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📦 Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Verifique se você possui o **Node.js** e o **npm** instalados:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+node -v
+npm -v
+```
 
-### `npm run eject`
+Caso não tenha, instale em: [https://nodejs.org/](https://nodejs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🧰 Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone o repositório**:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone https://github.com/m4ite/quiz-react-app.git
+cd quiz-react-app
+```
 
-## Learn More
+2. **Instale as dependências**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Correção de conflitos de dependências**:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+```bash
+npm install bootstrap
+```
+
+---
+
+### ▶️ Executando o Projeto
+
+Para inciar o servidor:
+
+```bash
+npm start
+```
+
+---
+
+<a name="funcionalidade"></a>
+## 🚧 Funcionalidades
+
+- Seleção de categorias para o quiz
+- Exibição de perguntas com múltiplas alternativas
+- Controle de respostas e cálculo da pontuação automaticamente
+- Página de resultados com estatísticas de acertos, erros e percentual final
+- Navegação entre as páginas com React Router
+
