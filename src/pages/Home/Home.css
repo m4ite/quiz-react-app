@@ -1,7 +1,14 @@
 .homepage {
   text-align: center;
   padding: 2rem;
+  max-width: 600px;
+  background: #2d3748;
+  border-radius: 12px;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 
 .button-grid {
   display: flex;
@@ -9,6 +16,10 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
+}
+
+.button-grid button{
+  width: 80%;
 }
 
 .categoria {

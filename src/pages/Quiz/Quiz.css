@@ -1,6 +1,5 @@
-/* Container geral */
-div {
-  max-width: 600px;
+.card {
+  max-width: 60vw;
   margin: 40px auto;
   padding: 20px;
   background: #2d3748; /* tom escuro para fundo do card */
@@ -8,6 +7,7 @@ div {
   color: #e2e8f0; /* cor clara para texto */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
 /* Títulos */
@@ -41,7 +41,35 @@ li + li {
 }
 
 /* Botões das alternativas */
-button {
+.botao_alternativa {
+  width: 80%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #4a5568;
+  color: #e2e8f0;
+}
+
+
+.botao_alternativa:hover:not(:disabled) {
+  background-color: #38b2ac; 
+  color: #000;
+}
+.selected {
+  background-color: #81e6d9 !important;
+  color: #000 !important;
+}
+
+
+.botao_next[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.botao_next {
   width: 100%;
   padding: 12px 20px;
   font-size: 1rem;
@@ -49,46 +77,25 @@ button {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: #4a5568; /* cinza escuro */
-  color: #e2e8f0;
-}
-
-button:hover:not(:disabled) {
-  background-color: #38b2ac; /* tom turquesa claro */
-  color: #000;
-}
-
-/* Alternativa selecionada */
-button.selected {
-  background-color: #81e6d9; /* azul-turquesa claro */
-  color: #000;
-}
-
-/* Botão Next */
-button[disabled] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-button:last-of-type {
-  background-color: #3182ce; /* azul padrão */
+  background-color: #3182ce;
   color: #fff;
   font-weight: 600;
   margin-top: 10px;
 }
 
-button:last-of-type:hover:not(:disabled) {
+.botao_next:hover:not(:disabled) { /* hover se o botão não estiver disabilidato */
   background-color: #63b3ed;
 }
 
-/* Responsividade simples */
+
+
 @media (max-width: 640px) {
   div {
     margin: 20px;
     padding: 15px;
   }
 
-  button {
+  .botao_alternativa {
     font-size: 0.9rem;
     padding: 10px 15px;
   }
